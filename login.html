@@ -3,22 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>Tiny Talk</title>
-	<link rel="stylesheet" href="css/Normalize.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilo.css" />
 </head>
 <body>
-	<header>
+	<header class="header">
 		<h1 class="logo">Tiny Talk</h1>
 	</header>
-	<a href="" class="ui-button contained">INSCREVA-SE</a>
-	<form>
+	<form class="login-form">
+		<a href="" class="ui-button--contained subscribe-button">INSCREVA-SE</a>
 		<label form="email">Email</label>
-		<input type="text" name="email" />
+		<input type="email" name="email" />
 		<label form="senha">Senha</label>
 		<input type="text" name="senha" />
+		<div class="login-form__actions">
+			<a href="" class="ui-button">ESQUECI MINHA SENHA</a>
+			<button type="submit">ENTRAR</button>
+		</div>
 	</form>
-	<a href="" class="ui-button">ESQUECI MINHA SENHA</a>
-	<a href="" class="ui-button bordered">ENTRAR</a>
 </body>
 </html>
