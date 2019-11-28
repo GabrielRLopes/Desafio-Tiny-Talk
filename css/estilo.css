@@ -78,6 +78,8 @@ h1 {
   padding: 9px 20px;
   text-align: center;
   font-weight: bold;
+  transition: background 200ms; 
+  transition-property: color, background-color, border-color;
 }
 .ui-button--contained{
   background: #2c3e50;
@@ -85,12 +87,12 @@ h1 {
   color: #ebebeb;
   text-decoration: none;
 }
+.ui-button--contained:hover{
+  background-color: #415B76;
+}
 .subscribe-button{
   width: 100%;
   margin-bottom: 30px;
-}
-.subscribe-button:hover{
-  background-color: #415B76;
 }
 .ui-button--bordered{
   background: transparent;
