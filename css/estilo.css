@@ -95,6 +95,9 @@ h1 {
   height: 38px;
   color: #2c3e50;
 }
+.submit-button{
+  margin-left: auto;
+}
 .ui-form-group{
   margin-bottom: 15px;
 }
