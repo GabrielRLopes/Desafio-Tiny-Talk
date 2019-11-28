@@ -61,18 +61,17 @@ h1 {
   color: #ebebeb;
   font-size: 42px;
 }
-.login-form {
+.centralized-form{
   width: 380px;
   margin: 30px auto;
   display: flex;
   flex-direction: column;
 }
-
-.login-form__actions {
+.login-form__actions{
   display: flex;
   justify-content: space-between;
 }
-.ui-button {
+.ui-button{
   text-decoration: none;
   color: #2c3e50;
   border-radius: 19px;
@@ -80,39 +79,37 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
-.ui-button--contained {
+.ui-button--contained{
   background: #2c3e50;
   height: 38px;
   color: #ebebeb;
   text-decoration: none;
 }
-.subscribe-button {
+.subscribe-button{
   width: 100%;
   margin-bottom: 30px;
 }
-.ui-button--bordered {
+.ui-button--bordered{
   background: transparent;
   border-color: #2c3e50;
   height: 38px;
   color: #2c3e50;
 }
-.ui-form-group {
+.ui-form-group{
   margin-bottom: 15px;
 }
-
-.no-h-padding {
+.no-h-padding{
   padding-left: 0;
   padding-right: 0;
 }
-
-label {
+label{
   color: #2c3e50;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-flex;
 }
-input {
+input{
   border-radius: 4px;
   border-style: solid;
   border-color: #2c3e50;
