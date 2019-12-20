@@ -1,8 +1,12 @@
 * {
   box-sizing: border-box;
 }
+html{
+  height: 100%;
+}
 body {
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
 }
 /* grid 960px */
 .linha {
@@ -57,21 +61,47 @@ body {
   padding: 45px 0px 45px 0px;
   text-align: center;
 }
+.wrapper {
+  height: 100%;
+  display: flex;
+}
+.wrapper__feed {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 15px;
+}
+.sidebar {
+  display: flex;
+  height: 100%;
+  width: 300px;
+  background: #2c3e50;
+}
+.menu__link {
+  color: #ebebeb;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  padding: 35px 0px 0px 40px;
+}
+.menu__link:hover {
+
+}
 h1 {
   color: #ebebeb;
   font-size: 42px;
 }
-.centralized-form{
+.centralized-form {
   width: 380px;
   margin: 30px auto;
   display: flex;
   flex-direction: column;
 }
-.login-form__actions{
+.login-form__actions {
   display: flex;
   justify-content: space-between;
 }
-.ui-button{
+.ui-button {
   text-decoration: none;
   color: #2c3e50;
   border-radius: 19px;
@@ -81,48 +111,64 @@ h1 {
   transition: background 200ms; 
   transition-property: color, background-color, border-color;
 }
-.ui-button--contained{
+.ui-button--contained {
   background: #2c3e50;
   height: 38px;
   color: #ebebeb;
   text-decoration: none;
 }
-.ui-button--contained:hover{
+.ui-button--contained:hover {
   background-color: #415B76;
 }
-.subscribe-button{
+.subscribe-button {
   width: 100%;
   margin-bottom: 30px;
 }
-.ui-button--bordered{
+.ui-button--bordered {
   background: transparent;
   border-color: #2c3e50;
   height: 38px;
   color: #2c3e50;
 }
-
-.ui-button--bordered:hover{
+.ui-button--bordered:hover {
   background-color: #2c3e50;
   color: #ebebeb;
 }
-.submit-button{
+.submit-button {
   margin-left: auto;
 }
-.ui-form-group{
+.ui-form-group {
   margin-bottom: 15px;
 }
-.no-h-padding{
+.no-h-padding {
   padding-left: 0;
   padding-right: 0;
 }
-label{
+.avatar {
+  border-radius: 50%;
+}
+.avatar--big {
+  border-radius: 50%;
+  height: 78px;
+  width: 78px;
+}
+.textarea {
+  border: none;
+  width: 700px;
+  height: 100px;
+  color: #9B9B9B;
+  font-size: 18px;
+  resize: none;
+  padding: 0px 15px;
+}
+label {
   color: #2c3e50;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-flex;
 }
-input{
+input {
   border-radius: 4px;
   border-style: solid;
   border-color: #2c3e50;
