@@ -17,10 +17,17 @@
 		</nav>
 	</aside>
 	<div class="feed">
-		<img class="avatar avatar--big" src="img/abott@adorable.png">
-		<div>
-			<textarea class="textarea">O que está acontecendo?</textarea>
-			<button class="ui-button ui-button--bordered submit-button" type="submit">ENVIAR</button>
+		<div class="feed__new-message">
+			<img class="avatar avatar--big feed__new-message__avatar" src="img/abott@adorable.png">
+			<div class="feed__new-message__textarea__wrapper">
+				<textarea class="textarea">O que está acontecendo?</textarea>
+				<button
+					class="ui-button ui-button--bordered submit-button"
+					type="submit"
+				>
+					ENVIAR
+				</button>
+			</div>
 		</div>
 		<ul class="feed__list">
 			<li class="feed__post">
@@ -38,7 +45,7 @@
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
-			</li>	
+			</li>
 		</ul>
 	</div>
 </body>

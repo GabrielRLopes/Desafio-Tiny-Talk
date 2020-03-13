@@ -68,7 +68,23 @@ body {
 .feed {
   display: flex;
   padding: 20px 15px;
-  width: 500px;
+  width: 850px;
+  flex-direction: column;
+}
+.feed__new-message__avatar {
+  width: 78px;
+  min-width: 78px;
+  margin-right: 20px;
+}
+
+.feed__new-message__textarea__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed__new-message {
+  display: flex;
+
 }
 .feed__list {
   display: flex;
@@ -104,7 +120,7 @@ h2 {
   font-size: 13px;
 }
 p {
-  font-size: 18px: 
+  font-size: 18px:
 }
 .centralized-form {
   width: 380px;
@@ -123,7 +139,7 @@ p {
   padding: 9px 20px;
   text-align: center;
   font-weight: bold;
-  transition: background 200ms; 
+  transition: background 200ms;
   transition-property: color, background-color, border-color;
 }
 .ui-button--contained {
